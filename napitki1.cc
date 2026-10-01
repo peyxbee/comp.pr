@@ -173,6 +173,7 @@ public:
     void setCarbonated(bool carbon) { isCarbonated = carbon; }
     bool getCarbonated() const { return isCarbonated; } // или isCarbonated()
 };
+
 //функция для очистики потока, если пользователь ввел неккоретктное значение(БЕЗ НЕЕ ВСЕ ЛОМАЕТСЯ)
 void clearInput() {
     cin.clear();
@@ -235,7 +236,9 @@ int main() {
         }
     }
 
-    cout << "\n=== CREATE SECOND DRINK ===" << endl;
+    // cout << "\n=== CREATE SECOND DRINK ===" << endl;
+    cout << "\nв этой строчке я проверяю работу гита" << endl;
+
 
     // Ввод названия второго
     cout << "name: ";
